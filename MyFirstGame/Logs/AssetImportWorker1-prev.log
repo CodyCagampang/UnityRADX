@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/T00252336/MyFirstGame
+C:/Users/T00252336/RADX/MyFirstGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65144
-Successfully changed project path to: C:/Users/T00252336/MyFirstGame
-C:/Users/T00252336/MyFirstGame
+51656
+Successfully changed project path to: C:/Users/T00252336/RADX/MyFirstGame
+C:/Users/T00252336/RADX/MyFirstGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/T00252336/MyFirstGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23668] Host "[IP] 10.5.34.165 [Port] 0 [Flags] 2 [Guid] 2423275978 [EditorId] 2423275978 [Version] 1048832 [Id] WindowsEditor(7,1xxc025a5844230) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23068] Host "[IP] 10.5.34.165 [Port] 0 [Flags] 2 [Guid] 522613540 [EditorId] 522613540 [Version] 1048832 [Id] WindowsEditor(7,1xxc025a5844230) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23668] Host "[IP] 10.5.34.165 [Port] 0 [Flags] 2 [Guid] 2423275978 [EditorId] 2423275978 [Version] 1048832 [Id] WindowsEditor(7,1xxc025a5844230) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23068] Host "[IP] 10.5.34.165 [Port] 0 [Flags] 2 [Guid] 522613540 [EditorId] 522613540 [Version] 1048832 [Id] WindowsEditor(7,1xxc025a5844230) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 78.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 208.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/T00252336/MyFirstGame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/T00252336/RADX/MyFirstGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,7 +67,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -76,7 +76,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.012476 seconds.
+Registered in 0.056784 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
@@ -86,90 +86,90 @@ Native extension for AppleTV target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 485 ms
+Android Extension - Scanning For ADB Devices 1558 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.184 seconds
+- Completed reload, in  3.074 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1185ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (3075ms)
+		BeginReloadAssembly (472ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (960ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (2345ms)
+			LoadAssemblies (497ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (231ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (780ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (1978ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (595ms)
+				InitializePlatformSupportModulesInManaged (1770ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018139 seconds.
+Registered in 0.041331 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.921 seconds
+- Completed reload, in  1.715 seconds
 Domain Reload Profiling:
-	ReloadAssembly (921ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1716ms)
+		BeginReloadAssembly (338ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (683ms)
-			LoadAssemblies (155ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1211ms)
+			LoadAssemblies (460ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (271ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (461ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
+				InitializePlatformSupportModulesInManaged (40ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3050 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (341.3 KB). Loaded Objects now: 3513.
-Memory consumption went from 112.4 MB to 112.1 MB.
-Total: 2.545200 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.091400 ms MarkObjects: 2.138400 ms  DeleteObjects: 0.102800 ms)
+Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (341.9 KB). Loaded Objects now: 3524.
+Memory consumption went from 114.3 MB to 113.9 MB.
+Total: 5.619900 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.119500 ms MarkObjects: 5.099800 ms  DeleteObjects: 0.135200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,966 +183,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 854.656984 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.009858 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.035259 seconds.
+Registered in 0.025200 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.091 seconds
+- Completed reload, in  3.594 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3099ms)
-		BeginReloadAssembly (1392ms)
+	ReloadAssembly (3608ms)
+		BeginReloadAssembly (2064ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (71ms)
+			DisableScriptedObjects (116ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (487ms)
-		EndReloadAssembly (1543ms)
-			LoadAssemblies (432ms)
+			CreateAndSetChildDomain (696ms)
+		EndReloadAssembly (1387ms)
+			LoadAssemblies (549ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (471ms)
+			SetupTypeCache (661ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (592ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (380ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (92ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (62ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (329ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 9.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3046 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.8 KB). Loaded Objects now: 3518.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 15.141300 ms (FindLiveObjects: 0.393400 ms CreateObjectMapping: 0.201000 ms MarkObjects: 13.884300 ms  DeleteObjects: 0.659600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 494.097682 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow6.fbx
-  artifactKey: Guid(c5ec2d9df8a2468478fd408cef27f3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow6.fbx using Guid(c5ec2d9df8a2468478fd408cef27f3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e76d231523110ffd6ed9b68a420f1d3') in 0.926952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/StarSparrow/Meshes/BonusContent/MinesSample.FBX
-  artifactKey: Guid(6ed599d7224ee9943b11064add7ed981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/BonusContent/MinesSample.FBX using Guid(6ed599d7224ee9943b11064add7ed981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a2c7b6489ddddfea1bcd32d7bc38c5') in 0.069691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/StarSparrow/Meshes/BonusContent/StarSparrow_Modules_LP_Red.fbx
-  artifactKey: Guid(810271bfc83db0542896feced51cf3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/BonusContent/StarSparrow_Modules_LP_Red.fbx using Guid(810271bfc83db0542896feced51cf3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c5189b4f6c9f5c5f273406f3bb7f38') in 0.173194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow17.fbx
-  artifactKey: Guid(2e5a3284e53ba5f4b8b58b493ce933c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes/StarSparrow17.fbx using Guid(2e5a3284e53ba5f4b8b58b493ce933c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f59258ec9052bdb0e48fb07e771d6b8') in 0.042993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.601399 seconds.
-  path: Assets/StarSparrow/Materials/StarSparrow_Grey.mat
-  artifactKey: Guid(dc60a1e64de33bb44979dad0c2529fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/StarSparrow_Grey.mat using Guid(dc60a1e64de33bb44979dad0c2529fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd679dc5a3fb40bd62552d2a2e7c79acd') in 0.666698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.283378 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Cyan.png
-  artifactKey: Guid(0a81df52ee9beb24ea6a9dddba48a6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Cyan.png using Guid(0a81df52ee9beb24ea6a9dddba48a6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2d8c107bd864a7745acacfd005a473') in 1.623662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Red.png
-  artifactKey: Guid(e6e95fbe26400d64f873bac5ee28ba71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Red.png using Guid(e6e95fbe26400d64f873bac5ee28ba71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d7d90cb59f948dcfd5f20eed5082f2') in 0.129347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Orange.png
-  artifactKey: Guid(6ce89d2ed6893fb4286aceb9488f545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Orange.png using Guid(6ce89d2ed6893fb4286aceb9488f545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016b298a6b87e00dded59459b0051fef') in 0.117145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 469.023784 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.035847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 96.624238 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '91d8d12865c8c452b0b6f4a082fd5ba2') in 0.769256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/StarSparrow/Materials/BonusContent/Mine Sample 2.mat
-  artifactKey: Guid(7da0d403d4fb0da40ac018d557c6db89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Materials/BonusContent/Mine Sample 2.mat using Guid(7da0d403d4fb0da40ac018d557c6db89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd8710c7c6be8d3af16f0de51537798b4') in 0.185394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing1.FBX
-  artifactKey: Guid(c121b1640d073a14382ea0f68499c85e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing1.FBX using Guid(c121b1640d073a14382ea0f68499c85e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3824f2e253e0b936204083eb142ed7f3') in 0.189634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Green.png
-  artifactKey: Guid(9f1c89b283cdbcd4f8f9a253b6075736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Green.png using Guid(9f1c89b283cdbcd4f8f9a253b6075736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fcf93f8d70e78022cef27a7c40b4f32e') in 0.602120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow5.fbx
-  artifactKey: Guid(5c14422e95638304598a3adad94bbf2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow5.fbx using Guid(5c14422e95638304598a3adad94bbf2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4df7b19d977e944a5ba6b3e37f59a51d') in 0.060964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow9.prefab
-  artifactKey: Guid(2906865e96aebb648ba3cad8dba23340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow9.prefab using Guid(2906865e96aebb648ba3cad8dba23340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '48c227c5319e4455ceb7fd644f4689e2') in 0.100067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Purple.png
-  artifactKey: Guid(640f8c474d13c194ab55e398b2b76cc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Purple.png using Guid(640f8c474d13c194ab55e398b2b76cc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b5598af423e8d8a2569be958f6e4702b') in 0.103991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Yellow.png
-  artifactKey: Guid(dea47b81d7ca39b4cba5cf830a9a83a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Yellow.png using Guid(dea47b81d7ca39b4cba5cf830a9a83a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2358b468d76ff4116d48c66e5e74bee2') in 0.042070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow9.fbx
-  artifactKey: Guid(1be931e70b01b2b409458d5802a32af8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow9.fbx using Guid(1be931e70b01b2b409458d5802a32af8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8449d6db834cb2eed7f3fb266fd30724') in 0.047981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Grey.png
-  artifactKey: Guid(8b0667e0c2229d840b018e5b0ad2d1cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Grey.png using Guid(8b0667e0c2229d840b018e5b0ad2d1cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '288f17c96cd8fdceef120fe115824a92') in 0.059388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Tinniuq Planet.prefab
-  artifactKey: Guid(8c22678d7aa562145804b6f0af7e603a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Tinniuq Planet.prefab using Guid(8c22678d7aa562145804b6f0af7e603a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c1404bc21395d1e17e4a3e57f32b7a7d') in 0.065336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow13.prefab
-  artifactKey: Guid(704ae8c099e4b6a4ea1b5bd83d020432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow13.prefab using Guid(704ae8c099e4b6a4ea1b5bd83d020432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '947c555bc50ac26a5f23f657b115471a') in 0.060963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow19.prefab
-  artifactKey: Guid(fffe62ec194d0944ab13a6eea990288b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow19.prefab using Guid(fffe62ec194d0944ab13a6eea990288b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b6d44bff058ad69192ed5a01250a565a') in 0.048734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow8.prefab
-  artifactKey: Guid(45c7f78411df3fe46ac304347188b5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow8.prefab using Guid(45c7f78411df3fe46ac304347188b5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd8195c88e039cb21ed1a6f999cc12afd') in 0.038203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow2.prefab
-  artifactKey: Guid(bffac15ab19a54a4dad63ea5b57a6b0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow2.prefab using Guid(bffac15ab19a54a4dad63ea5b57a6b0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '271d9d24cb425c2e54dec0979fad32a1') in 0.029131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Blue.mat
-  artifactKey: Guid(e1cac9f87fda27445ac6a54ade344d63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Materials/BonusContent/AsteroidsLava_Blue.mat using Guid(e1cac9f87fda27445ac6a54ade344d63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '63403916063ceff4f9fba09ce66aa65c') in 0.057969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/StarSparrow/Materials/StarSparrow_MetallicSmoothness.mat
-  artifactKey: Guid(eaf9b8f05ab19b4479338c8b3c7b4780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Materials/StarSparrow_MetallicSmoothness.mat using Guid(eaf9b8f05ab19b4479338c8b3c7b4780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '160f70b6054b3f5b5969bfbd351ebeb5') in 0.111578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/StarSparrow/Meshes/BonusContent/StarSparrow_Modules_LP_Red.fbx
-  artifactKey: Guid(810271bfc83db0542896feced51cf3ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/BonusContent/StarSparrow_Modules_LP_Red.fbx using Guid(810271bfc83db0542896feced51cf3ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '259ab86dbc0f9b795f5f5f46534079c1') in 0.087273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow15.fbx
-  artifactKey: Guid(888d949f49a3bde42a660d5d295edbaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow15.fbx using Guid(888d949f49a3bde42a660d5d295edbaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6fcfe2a2fc3d5104946343bac7aa4ddf') in 0.046654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/StarSparrow/Readme/ReadmeStarSparrow.asset
-  artifactKey: Guid(831b6df9656715346bac250feaa321a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Readme/ReadmeStarSparrow.asset using Guid(831b6df9656715346bac250feaa321a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ddb75c35becbd8a12bb12e112b816f60') in 0.259687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/StarSparrow/Meshes/BonusContent/MinesSample.FBX
-  artifactKey: Guid(6ed599d7224ee9943b11064add7ed981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/BonusContent/MinesSample.FBX using Guid(6ed599d7224ee9943b11064add7ed981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'deab0a4dfdf593eeda43dc196696192f') in 0.042398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow4.fbx
-  artifactKey: Guid(da14a01f98ed7544e9203c9240e10acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow4.fbx using Guid(da14a01f98ed7544e9203c9240e10acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b23f272d8fcaaca3cf03493e6707f05d') in 0.051818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/StarSparrow/Materials/StarSparrow_White.mat
-  artifactKey: Guid(508a5c5900b3d654ebf40cf88ed14dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Materials/StarSparrow_White.mat using Guid(508a5c5900b3d654ebf40cf88ed14dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1f4ae1709d910d61fa9f3dbfcdbeb440') in 0.264244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_LP_Red.prefab
-  artifactKey: Guid(30e7e44d738e12b4d90219afe4380ab9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_LP_Red.prefab using Guid(30e7e44d738e12b4d90219afe4380ab9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f7b11e79f2c5bad1ebf887a5c3c42481') in 0.040738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/StarSparrow/Materials/StarSparrow_Purple.mat
-  artifactKey: Guid(67acd285733fed44fb1db4a42bd626c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Materials/StarSparrow_Purple.mat using Guid(67acd285733fed44fb1db4a42bd626c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '55969077e9e680a416eedfc3297b0003') in 0.060903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/StarSparrow/Materials/StarSparrow_Grey.mat
-  artifactKey: Guid(dc60a1e64de33bb44979dad0c2529fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Materials/StarSparrow_Grey.mat using Guid(dc60a1e64de33bb44979dad0c2529fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3c644891ce4b2d53fe6ad49d89d88587') in 0.065457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow10.fbx
-  artifactKey: Guid(e84db841a9a98e444bd4466e423506d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow10.fbx using Guid(e84db841a9a98e444bd4466e423506d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '061b62fb5b40895ec085a2f29b1e6e38') in 0.057367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow18.fbx
-  artifactKey: Guid(d2da5c2e05457aa458d3c8c124ead304) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow18.fbx using Guid(d2da5c2e05457aa458d3c8c124ead304) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b8223d95057f6ff9d36e95c825c1c8f5') in 0.050624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab
-  artifactKey: Guid(1c3973db67bc50449bfac34c2093ea4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab using Guid(1c3973db67bc50449bfac34c2093ea4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a6e7294b73257c1dd2efde3a927f976f') in 0.036477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab
-  artifactKey: Guid(b69ddbc1b5379784c872b0996311fd12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab using Guid(b69ddbc1b5379784c872b0996311fd12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a6a88b5121e9d81833e787f7144fa486') in 0.037114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Weapon_Mirrored_LP_Red.prefab
-  artifactKey: Guid(5fcee70427c45b0479f21b97546e2dc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Weapon_Mirrored_LP_Red.prefab using Guid(5fcee70427c45b0479f21b97546e2dc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '08aa2e8599d4ab829e0c45dda9441c60') in 0.036969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow6.prefab
-  artifactKey: Guid(a0d54a0a1d9b339469e40d1840d491db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow6.prefab using Guid(a0d54a0a1d9b339469e40d1840d491db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9c4bff228e5ab06b5a8c1c42f1c100f5') in 0.039946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png
-  artifactKey: Guid(8d0f2071706729c4d95bb30b050bc137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png using Guid(8d0f2071706729c4d95bb30b050bc137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6c22bb755333532c1c613c0321545b1c') in 0.043766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_MetallicSmoothness.png
-  artifactKey: Guid(1081a96ded5ed4d40bc35d5e1925bed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_MetallicSmoothness.png using Guid(1081a96ded5ed4d40bc35d5e1925bed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bb89814a51d3f1a8074fcc1feba8ef9b') in 0.034447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Normal.png
-  artifactKey: Guid(a909b68486656de4986628989cc5f12a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Normal.png using Guid(a909b68486656de4986628989cc5f12a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9d18a6a106737e9542ab8b235bf355f8') in 0.050228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_MetallicSmoothness.png
-  artifactKey: Guid(859aa0c16660ddf4c910e8d21103fcc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_MetallicSmoothness.png using Guid(859aa0c16660ddf4c910e8d21103fcc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '69b7e45a4f5dad5f7539b47f240dc47d') in 0.044244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Normal.png
-  artifactKey: Guid(3f67e2f5233dc6546a70f67b5c084495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_Normal.png using Guid(3f67e2f5233dc6546a70f67b5c084495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '418c30e752bf14c5cfd79be867c21bc4') in 0.041876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png
-  artifactKey: Guid(89444bc8e26f111479c9f9b288546a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png using Guid(89444bc8e26f111479c9f9b288546a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '27f8b162cb4b4e37aa93e0a7852e5ed9') in 0.043885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png
-  artifactKey: Guid(0ff802439110fec41b4c0bda29885e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png using Guid(0ff802439110fec41b4c0bda29885e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cd7413da181f206ca7af2bee18f2987f') in 0.043383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow17.fbx
-  artifactKey: Guid(2e5a3284e53ba5f4b8b58b493ce933c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow17.fbx using Guid(2e5a3284e53ba5f4b8b58b493ce933c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0b139f7a77df17ccd84d30f4d626a6e7') in 0.043299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Bomb.prefab
-  artifactKey: Guid(54958f8430f04ae4ab653a498c64314c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Bomb.prefab using Guid(54958f8430f04ae4ab653a498c64314c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dbd275722f43a6993c28bba1fbf0474b') in 0.030012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow1.fbx
-  artifactKey: Guid(f075e254465ab4f4ca310cbec3ed905b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow1.fbx using Guid(f075e254465ab4f4ca310cbec3ed905b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '880fa2c469f21cb0c6a3414c9ebc2bcf') in 0.049801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png
-  artifactKey: Guid(35c503943e9b94a49a5cf140d6154a75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png using Guid(35c503943e9b94a49a5cf140d6154a75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f7dec8fa8bb2cce254f4e5d720fbbbcf') in 0.046502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png
-  artifactKey: Guid(704376da483ef144db57a9c8a2b71253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png using Guid(704376da483ef144db57a9c8a2b71253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '96bc67f2b22c8209f4a9394bdad4718f') in 0.052830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Planet/Clouds.png
-  artifactKey: Guid(478a6b3965fdb3749a9bbce2e0036b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Clouds.png using Guid(478a6b3965fdb3749a9bbce2e0036b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '64d9f6a046357971518c767ab50a2d98') in 0.058864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/PolygonSpaceship/ColorsAtlas.png
-  artifactKey: Guid(c1ee5e0ae2c553846ae8c36436a6754d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/PolygonSpaceship/ColorsAtlas.png using Guid(c1ee5e0ae2c553846ae8c36436a6754d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f16c5098320dfe12a035af8d88f7cb03') in 0.044594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow1.prefab
-  artifactKey: Guid(81ddaef9d4697d84ba75e74a69f45a43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow1.prefab using Guid(81ddaef9d4697d84ba75e74a69f45a43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fd090a3aca6243b20c1510536bcd6356') in 0.043022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/StarSparrow/Materials/Extra/StarSparrow_Yellow.mat
-  artifactKey: Guid(248508f42dcd00049925f29941b22e00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Materials/Extra/StarSparrow_Yellow.mat using Guid(248508f42dcd00049925f29941b22e00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '95285a0c24f64bed77f29d8e54dd42e8') in 0.059619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow5.prefab
-  artifactKey: Guid(8ca464254f02c694788d32d2ed2c82c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow5.prefab using Guid(8ca464254f02c694788d32d2ed2c82c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7e4a36db825d2134769db8650a3b99c0') in 0.030212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow11.prefab
-  artifactKey: Guid(d0ee9ecd775e34846983a62b384b28da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow11.prefab using Guid(d0ee9ecd775e34846983a62b384b28da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd7e96a96863634c4636f4ae6fc79eb2d') in 0.034926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_1_LP_Red.prefab
-  artifactKey: Guid(3ccd65918d2f84f48b355c31f6301a1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_1_LP_Red.prefab using Guid(3ccd65918d2f84f48b355c31f6301a1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '99a42b5ddbba7d50f64d083c0bed2c7a') in 0.047809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab
-  artifactKey: Guid(19bc9763fa1de3a46b9e632135faf962) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab using Guid(19bc9763fa1de3a46b9e632135faf962) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '18b8f3e8ea1433e6bc8cbc4329bd81f2') in 0.041806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/StarSparrow/Materials/Extra/StarSparrow_Black.mat
-  artifactKey: Guid(bccd59c329f7a11449e3220748484c14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Materials/Extra/StarSparrow_Black.mat using Guid(bccd59c329f7a11449e3220748484c14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1e212c01837d6ee2b5effe03caed68b4') in 0.065332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_3_LP_Red.prefab
-  artifactKey: Guid(d020278fb783dd043828dd2b012bf982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_3_LP_Red.prefab using Guid(d020278fb783dd043828dd2b012bf982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1547990a3e4ae676130503b9f8564fcf') in 0.063189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow13.fbx
-  artifactKey: Guid(ceb1d5330696dc8419bab98c93b25880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow13.fbx using Guid(ceb1d5330696dc8419bab98c93b25880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6de395b1154f2a8dca5b08874b2c673e') in 0.039696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/Missile.prefab
-  artifactKey: Guid(8b227e0429c621940acb9e2e8d18d12f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/Missile.prefab using Guid(8b227e0429c621940acb9e2e8d18d12f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c4133b9247324e0787e06b639f774d20') in 0.033158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/StarSparrow/Textures/Masks/Readme.txt
-  artifactKey: Guid(9b27882b1206bad4aaee5f7bdebcbae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/Masks/Readme.txt using Guid(9b27882b1206bad4aaee5f7bdebcbae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a8590b57c2b6923d136b074f285e790d') in 0.412323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab
-  artifactKey: Guid(01a1e23558e35e64989f5b1129a2c195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Weapon.prefab using Guid(01a1e23558e35e64989f5b1129a2c195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dd28cca2c4ec78f33275c11ae516b5c6') in 0.030625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/StarSparrow/Readme/Readme Files/Icons/ReadMeStarSparrow_Icon.png
-  artifactKey: Guid(6756ed7b80223ac4e8f026ce27541de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Readme/Readme Files/Icons/ReadMeStarSparrow_Icon.png using Guid(6756ed7b80223ac4e8f026ce27541de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '17f64818df8b2a81f8033f94504bbc35') in 0.034663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/StarSparrow/Meshes/BonusContent/Planet.FBX
-  artifactKey: Guid(614d5d16c663aaf4e8a724ee026d8cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/BonusContent/Planet.FBX using Guid(614d5d16c663aaf4e8a724ee026d8cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dead0155901b94a64f83b44b60348fd9') in 0.045576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/StarSparrow/Readme/Readme Files/Icons/HelpStarSparrow_Icon.png
-  artifactKey: Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Readme/Readme Files/Icons/HelpStarSparrow_Icon.png using Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '12581d5df1176e50a3b23aaaebc07394') in 0.038516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/StarSparrow/Materials/StarSparrow_Red.mat
-  artifactKey: Guid(3057f5a2b92dd3b47b45415db850c097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Materials/StarSparrow_Red.mat using Guid(3057f5a2b92dd3b47b45415db850c097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e7c2d76f36de4c03966efd8554ed3edd') in 0.045727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow19.fbx
-  artifactKey: Guid(1d304c90bf1578a44bca68ddfb71affd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow19.fbx using Guid(1d304c90bf1578a44bca68ddfb71affd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c52dba8bba9af0b79298d17a1bc7ba56') in 0.042201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow19.prefab
-  artifactKey: Guid(fa43056480667f241aecfe7f65a3b0dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow19.prefab using Guid(fa43056480667f241aecfe7f65a3b0dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a77c039fe36707d556db0644cb9b5d29') in 0.036700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab
-  artifactKey: Guid(21b471887873bf04aa486f9dd5f0cd62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab using Guid(21b471887873bf04aa486f9dd5f0cd62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9c18fddd1550d4903a4a9d3c5ec5cbfd') in 0.031296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs
-  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b9f42cdc0d4f534fcf9e665721ca384c') in 0.054668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab
-  artifactKey: Guid(4d8da171407a87a49b7bb5b3b0918e36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Thruster.prefab using Guid(4d8da171407a87a49b7bb5b3b0918e36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6c930c565f242ed21a2a65dada47375f') in 0.027737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab
-  artifactKey: Guid(8b76e784a0aed8245b1f78c3f71461ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab using Guid(8b76e784a0aed8245b1f78c3f71461ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '90d32db9da48e49c0a6523bfa10db58b') in 0.036057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow20.fbx
-  artifactKey: Guid(10627c7163ed56446b94cf6ba5a8ad88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow20.fbx using Guid(10627c7163ed56446b94cf6ba5a8ad88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '62002ffffde332a85b88e0f3254e250e') in 0.039602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow18.prefab
-  artifactKey: Guid(0a017732180c9414095a79d47672e644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow18.prefab using Guid(0a017732180c9414095a79d47672e644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5d07b0788628ac3c6c4736efaf822f25') in 0.032441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/StarSparrow/Materials/BonusContent/FlyingInsect_Purple.mat
-  artifactKey: Guid(cb69702e662a4114aa3a332d2da74996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Materials/BonusContent/FlyingInsect_Purple.mat using Guid(cb69702e662a4114aa3a332d2da74996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ba1036eb7c9491f1a75462342ae6880e') in 0.044239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow7.fbx
-  artifactKey: Guid(239331ff1e1da304292c572871d017c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow7.fbx using Guid(239331ff1e1da304292c572871d017c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '424fca631889b6d9460ab6623f2e6cb5') in 0.043380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow3.prefab
-  artifactKey: Guid(7001ad4285fc9324ebe16ff6b41b7a92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow3.prefab using Guid(7001ad4285fc9324ebe16ff6b41b7a92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b3303e0d398d70cd46778de655880544') in 0.046696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow3.prefab
-  artifactKey: Guid(38e280d5f087064468eb33afa854b684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow3.prefab using Guid(38e280d5f087064468eb33afa854b684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ac0a399ae257129bc3545dba44420e49') in 0.040064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png
-  artifactKey: Guid(79766b9d7d57b854fa14ff073d34a0f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Grey.png using Guid(79766b9d7d57b854fa14ff073d34a0f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f774c3c007403794f941101d21e7aeb5') in 0.041162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_2_LP_Red.prefab
-  artifactKey: Guid(f3f694fddb9ec5649ba658551ea3d4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_2_LP_Red.prefab using Guid(f3f694fddb9ec5649ba658551ea3d4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '32c058bee76ab0a83f0fb0c2a56ab8d0') in 0.030964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
-  artifactKey: Guid(4958f0571d0641a42a5ff58b6ad33a3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png using Guid(4958f0571d0641a42a5ff58b6ad33a3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3cd965bf2462fdea521b18bc5468a92f') in 0.036332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionBlue.png
-  artifactKey: Guid(853e3999ffda83a44a905e31b9b2f8a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionBlue.png using Guid(853e3999ffda83a44a905e31b9b2f8a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3c464c2b639a404667140fc171f87c13') in 0.031656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow15.prefab
-  artifactKey: Guid(b5ee1f95cafb4d341a83e882509518d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow15.prefab using Guid(b5ee1f95cafb4d341a83e882509518d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '92eb6d8315c85ccf98fe6899d38d30b4') in 0.031699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Fin.prefab
-  artifactKey: Guid(f3f5a95bf53de5744b3140ce9f35902f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Fin.prefab using Guid(f3f5a95bf53de5744b3140ce9f35902f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b35e5f7bda70e1c8551f503270e349f2') in 0.030370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Orange.png
-  artifactKey: Guid(6ce89d2ed6893fb4286aceb9488f545a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Orange.png using Guid(6ce89d2ed6893fb4286aceb9488f545a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4a43440b8a6fc68b8194dca0989ef23a') in 0.034300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3.FBX
-  artifactKey: Guid(b2359fd8578c87649ad70d6001527479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3.FBX using Guid(b2359fd8578c87649ad70d6001527479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b2777c0b12294d552c5813ef1ac7d9ab') in 0.039376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/StarSparrow/Meshes/StarSparrow3.fbx
-  artifactKey: Guid(7cf5e32f91da4484bad8c578e9284baa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Meshes/StarSparrow3.fbx using Guid(7cf5e32f91da4484bad8c578e9284baa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '10385e3a653f553e6e1666cf1766960f') in 0.034844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/StarSparrow/Textures/StarSparrow_Emission.png
-  artifactKey: Guid(c600825b725b90d44b2f76af56090d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/StarSparrow/Textures/StarSparrow_Emission.png using Guid(c600825b725b90d44b2f76af56090d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '230e7bca76cc8449018253725e5dd50b') in 0.031672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 114.376306 seconds.
-  path: Assets/StarSparrow/Materials/StarSparrow_MetallicSmoothness.mat
-  artifactKey: Guid(eaf9b8f05ab19b4479338c8b3c7b4780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Materials/StarSparrow_MetallicSmoothness.mat using Guid(eaf9b8f05ab19b4479338c8b3c7b4780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c1f33a35ed581b84a5b619d57b9749') in 1.193045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 78.099957 seconds.
-  path: Assets/StarSparrow/Meshes
-  artifactKey: Guid(611565bb02c30504995c4b3d89bd4e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarSparrow/Meshes using Guid(611565bb02c30504995c4b3d89bd4e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9eda0426829f9629773448506a4b52f') in 0.130433 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 127.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (77.1 KB). Loaded Objects now: 3565.
-Memory consumption went from 52.5 MB to 52.4 MB.
-Total: 380.525600 ms (FindLiveObjects: 0.235800 ms CreateObjectMapping: 0.098200 ms MarkObjects: 378.033600 ms  DeleteObjects: 2.156000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 219.013993 seconds.
-  path: Assets/Scenes/NewBehaviourScript.cs
-  artifactKey: Guid(152516c1526850e42878a2bb134b909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/NewBehaviourScript.cs using Guid(152516c1526850e42878a2bb134b909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e28ff36440388cd1e8e97e40fc203f') in 0.128449 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.057540 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  8.307 seconds
-Domain Reload Profiling:
-	ReloadAssembly (8340ms)
-		BeginReloadAssembly (5518ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (243ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2121ms)
-		EndReloadAssembly (2577ms)
-			LoadAssemblies (716ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (1017ms)
-			ReleaseScriptCaches (123ms)
-			RebuildScriptCaches (139ms)
-			SetupLoadedEditorAssemblies (515ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (82ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (297ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.9 KB). Loaded Objects now: 3568.
-Memory consumption went from 112.9 MB to 112.8 MB.
-Total: 7.585700 ms (FindLiveObjects: 0.410900 ms CreateObjectMapping: 0.246100 ms MarkObjects: 6.565700 ms  DeleteObjects: 0.360300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1345.920954 seconds.
-  path: Assets/360_F_179710260_yGn8CQ8VJ0DLGK6nWJ7b1CF6jvwAuesj.jpg
-  artifactKey: Guid(91192842d87c6704a9c34549e6ee53c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/360_F_179710260_yGn8CQ8VJ0DLGK6nWJ7b1CF6jvwAuesj.jpg using Guid(91192842d87c6704a9c34549e6ee53c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bb503ac0cd5ff715cd4d7a9aadea6e') in 3.637022 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027948 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.651 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2683ms)
-		BeginReloadAssembly (1752ms)
-			ExecutionOrderSort (2ms)
-			DisableScriptedObjects (171ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (609ms)
-		EndReloadAssembly (832ms)
-			LoadAssemblies (261ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (339ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (0.8 MB). Loaded Objects now: 3576.
-Memory consumption went from 114.3 MB to 113.5 MB.
-Total: 11.114200 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.102200 ms MarkObjects: 9.113100 ms  DeleteObjects: 1.662400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 685.009156 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Models/free_male_1.FBX
-  artifactKey: Guid(461413943bab6ef40aa2a33f18380180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Models/free_male_1.FBX using Guid(461413943bab6ef40aa2a33f18380180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6e36168658b60ae07ba80fd0af80de') in 1.196213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.221630 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base
-  artifactKey: Guid(0ab18ef640fc1e14abd86fbd0d9eee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base using Guid(0ab18ef640fc1e14abd86fbd0d9eee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626fc3e6dd92ef80cf544501a7412835') in 0.052911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.716409 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality
-  artifactKey: Guid(d729f54eafc8cd1469a4611c5fd9619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality using Guid(d729f54eafc8cd1469a4611c5fd9619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b592b5c856dc8eb0e779671737663e') in 0.059407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.702056 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/MaleFree1.prefab
-  artifactKey: Guid(313ad0ef31f75b84f9f31c0528802fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Prefabs/Base/High Quality/MaleFree1.prefab using Guid(313ad0ef31f75b84f9f31c0528802fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ef15b87dcf93e9c30d76f48aa39cbb') in 0.359657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 119.203355 seconds.
-  path: Assets/Ed's Animatons.controller
-  artifactKey: Guid(680faef512febec40b6f2d7bbf2e0477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ed's Animatons.controller using Guid(680faef512febec40b6f2d7bbf2e0477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f6a5b77d87a473d1521226ba030193') in 0.601054 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.023096 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.696 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3715ms)
-		BeginReloadAssembly (2157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (190ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (840ms)
-		EndReloadAssembly (1401ms)
-			LoadAssemblies (393ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (820ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (322ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (0.5 MB). Loaded Objects now: 3581.
-Memory consumption went from 126.9 MB to 126.4 MB.
-Total: 16.932200 ms (FindLiveObjects: 0.212200 ms CreateObjectMapping: 0.106100 ms MarkObjects: 15.563900 ms  DeleteObjects: 1.048400 ms)
+Unloading 17 unused Assets / (80.7 KB). Loaded Objects now: 3527.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 3.760200 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.111700 ms MarkObjects: 3.290800 ms  DeleteObjects: 0.125500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1152,60 +241,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.019397 seconds.
+Registered in 0.018331 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.260 seconds
+- Completed reload, in  1.472 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1261ms)
-		BeginReloadAssembly (247ms)
+	ReloadAssembly (1473ms)
+		BeginReloadAssembly (265ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (912ms)
-			LoadAssemblies (251ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (973ms)
+			LoadAssemblies (236ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (328ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (378ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.8 KB). Loaded Objects now: 3530.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 3.974200 ms (FindLiveObjects: 0.218200 ms CreateObjectMapping: 0.100400 ms MarkObjects: 3.530700 ms  DeleteObjects: 0.123200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016701 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.485 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1486ms)
+		BeginReloadAssembly (316ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1032ms)
+			LoadAssemblies (356ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (500.7 KB). Loaded Objects now: 3584.
-Memory consumption went from 126.8 MB to 126.3 MB.
-Total: 2.838700 ms (FindLiveObjects: 0.223200 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.237600 ms  DeleteObjects: 0.262700 ms)
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.8 KB). Loaded Objects now: 3533.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 3.155500 ms (FindLiveObjects: 0.242700 ms CreateObjectMapping: 0.136000 ms MarkObjects: 2.674000 ms  DeleteObjects: 0.101400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1215,126 +365,59 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 105.168291 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations
-  artifactKey: Guid(4c5d889290f821e4f9d3a1cdfddf771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations using Guid(4c5d889290f821e4f9d3a1cdfddf771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d665231d4fead2acd3aef86fab3acb5') in 0.372615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005949 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations/common_people@jump-float.FBX
-  artifactKey: Guid(a61a057436c775f449fcb20e89101739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations/common_people@jump-float.FBX using Guid(a61a057436c775f449fcb20e89101739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873670e2860ce5f5ff1ceabd7f3a864a') in 2.584112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations/common_people@jump-down.FBX
-  artifactKey: Guid(e128858833d96dd46adee36a45c805cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations/common_people@jump-down.FBX using Guid(e128858833d96dd46adee36a45c805cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb29e3f15db6e65078fd9a81cba20485') in 0.138621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations/common_people@jump-up.FBX
-  artifactKey: Guid(441579d7f72cae545a24352282ac90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations/common_people@jump-up.FBX using Guid(441579d7f72cae545a24352282ac90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95db2794ea219fb4069cfdad1d862a1') in 0.113677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations/common_people@idle.FBX
-  artifactKey: Guid(10cbb0afa2a98564a983cdaf3c1b7551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations/common_people@idle.FBX using Guid(10cbb0afa2a98564a983cdaf3c1b7551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addc7aba7d62911bdb97b377cbd9c990') in 0.134478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations/common_people@walk.FBX
-  artifactKey: Guid(77d7842e2139f594bb31c3c63d1ad4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations/common_people@walk.FBX using Guid(77d7842e2139f594bb31c3c63d1ad4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b9aaebd6f181f140fb8976e5560de8') in 0.104370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations/common_people@run.FBX
-  artifactKey: Guid(587fb8efeff01634aa9ce8a5af77911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations/common_people@run.FBX using Guid(587fb8efeff01634aa9ce8a5af77911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c35ff3f427e7e29ab8364921ea0b81d') in 0.081868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations/common_people@pickup.FBX
-  artifactKey: Guid(b3662f281ce0fd5449670a910110afc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations/common_people@pickup.FBX using Guid(b3662f281ce0fd5449670a910110afc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf01cfe7419e08c78b6839936dcf664a') in 0.087466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations/common_people@wave.FBX
-  artifactKey: Guid(09f13c3460d45ed43862ef43c7ddedb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations/common_people@wave.FBX using Guid(09f13c3460d45ed43862ef43c7ddedb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a598356a4e8227b267f44ed0cc377735') in 0.083227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations/common_people@mpose.FBX
-  artifactKey: Guid(45d480461bbdc704587e117329ce8e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations/common_people@mpose.FBX using Guid(45d480461bbdc704587e117329ce8e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf870404fc9c60819d0c7ae0fd20129') in 0.074735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Supercyan Character Pack Free Sample/Animations/common_people@backwards-walk.FBX
-  artifactKey: Guid(854ef493abe79464ca6e9795fb330040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Character Pack Free Sample/Animations/common_people@backwards-walk.FBX using Guid(854ef493abe79464ca6e9795fb330040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4e491e52763fb81956254b6a07574a') in 0.066134 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.030373 seconds.
+Registered in 0.022649 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.056 seconds
+- Completed reload, in  2.785 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4064ms)
-		BeginReloadAssembly (2280ms)
+	ReloadAssembly (2844ms)
+		BeginReloadAssembly (796ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (102ms)
+			DisableScriptedObjects (23ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1294ms)
-		EndReloadAssembly (1603ms)
-			LoadAssemblies (525ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1881ms)
+			LoadAssemblies (353ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (881ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (383ms)
+			SetupTypeCache (398ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (958ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (82ms)
+				InitializePlatformSupportModulesInManaged (183ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (612ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (0.5 MB). Loaded Objects now: 3587.
-Memory consumption went from 126.9 MB to 126.4 MB.
-Total: 8.072800 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.113100 ms MarkObjects: 7.437800 ms  DeleteObjects: 0.288000 ms)
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.8 KB). Loaded Objects now: 3536.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 15.898000 ms (FindLiveObjects: 0.432400 ms CreateObjectMapping: 0.427700 ms MarkObjects: 14.845100 ms  DeleteObjects: 0.190900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1344,11 +427,130 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.050638 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.395 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1396ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (981ms)
+			LoadAssemblies (276ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (350ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.8 KB). Loaded Objects now: 3539.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 3.314000 ms (FindLiveObjects: 0.251000 ms CreateObjectMapping: 0.142400 ms MarkObjects: 2.787800 ms  DeleteObjects: 0.131300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.043369 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\T00252336\RADX\MyFirstGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3532ms)
+		BeginReloadAssembly (2145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (119ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (804ms)
+		EndReloadAssembly (1241ms)
+			LoadAssemblies (513ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (576ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.8 KB). Loaded Objects now: 3543.
+Memory consumption went from 113.4 MB to 113.4 MB.
+Total: 12.873100 ms (FindLiveObjects: 0.370400 ms CreateObjectMapping: 0.132100 ms MarkObjects: 11.575300 ms  DeleteObjects: 0.793900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
